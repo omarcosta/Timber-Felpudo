@@ -47,3 +47,6 @@ You can play this and other FREE games at: [Zodia Games](https://zodia-games.itc
 ## Autor
 
 [Omar Costa](https://www.linkedin.com/in/omarcosta152/)
+
+### Credits
+[Click here for read more...](/Credits.md)
