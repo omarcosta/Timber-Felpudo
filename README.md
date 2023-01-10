@@ -1,6 +1,6 @@
 # Timber Felpudo
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Morfeu12/Snowball-Adventure/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Morfeu12/TimberFelpudo/blob/main/LICENSE) 
 
 ## The Project
 
