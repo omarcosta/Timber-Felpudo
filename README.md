@@ -15,12 +15,14 @@ Unity's default templete for 2D projects.
 
 ## Control 
 
-| Move | Move (Arrow Keys) | Mute (sounds) |
-| :---:|      :---:        | :---:         |
-| A    | Left              | Q             |
-| S    | Down              |
-| D    | Right             |
-| W    | Down              |
+| Hit Left                | Hit Right                |
+| :---:                   |      :---:               |        
+| A                       | S                        | 
+| Left (arrow key)        | Right (arrow key)        |
+| Click left side (mouse) | Click right side (mouse) |
+| Tap left side (touch)   | Tap left side (touch)    |
+
+* Compatible with joystick 
 
 
 ## Technology
