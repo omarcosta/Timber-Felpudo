@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Scenary
   - Enemy
+  - EnemyRight
+  - EnemyLeft
+  - Empty
   layers:
   - Default
   - TransparentFX
