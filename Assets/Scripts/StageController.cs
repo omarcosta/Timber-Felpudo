@@ -59,10 +59,10 @@ public class StageController : MonoBehaviour
     private void Awake() {
         score = 0;
         life = lifeBar.transform.localScale.x;
-        lifeLost = 0.15f;
+        lifeLost = 0.10f;
         lifeGain = 0.035f;
         dropBarrelSafe = 0.7f;
-        levelParameter = 30;
+        levelParameter = 50;
         level = 1;
         game_start = false;
         game_over = false;
@@ -119,7 +119,7 @@ public class StageController : MonoBehaviour
         sound_hit.Play();
         player.transform.position = new Vector2(1.1f, player.transform.position.y);
         player.transform.localScale = new Vector2(-playerScaleHorizontal, player.transform.localScale.y);
-        Invoke("HitAction", 0.2f);
+        Invoke("HitAction", 0.1f);
         listBarreal[0].SendMessage("TapRight");
         sound_break.Play();
         listBarreal.RemoveAt(0);
@@ -135,7 +135,7 @@ public class StageController : MonoBehaviour
         sound_hit.Play();
         player.transform.position = new Vector2(-1.1f, player.transform.position.y);
         player.transform.localScale = new Vector2(playerScaleHorizontal, player.transform.localScale.y);
-        Invoke("HitAction", 0.2f);
+        Invoke("HitAction", 0.1f);
         listBarreal[0].SendMessage("TapLeft");
         sound_break.Play();
         listBarreal.RemoveAt(0);
@@ -228,7 +228,7 @@ public class StageController : MonoBehaviour
 
     private void LevelUP() {
         if (score > levelParameter && !game_over) {
-            levelParameter = levelParameter + 30;
+            levelParameter = levelParameter + 50;
             level++;
             sound_levelup.Play();
             
