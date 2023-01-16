@@ -4,10 +4,14 @@
 
 ## The Project
 
-You control an ice ball through a scenery of mountains and snow with the aim of collecting all the magic crystals. Game developed in Unity3D using free assets from the Unity Store.
+Help Felpudo fight with blue worms!  
+2D game, you control Felpudo, a bird that is at war with the blue worms. In this version, he attacks barrels with his hammer while fighting his enemies.
 
-### Screenshots
-![Home menu de opções](https://github.com/Morfeu12/assets/blob/main/TimberFelpudo/0.png)
+#### Main Objetive 
+You make points hitting the barrels without touching the enemies
+
+#### Screenshots
+![IMG1](https://github.com/omarcosta/assets/blob/main/TimberFelpudo/00.jpg)
 
 ## Templete
 Unity's default templete for 2D projects. 
@@ -15,13 +19,38 @@ Unity's default templete for 2D projects.
 
 ## Control 
 
-| Move | Move (Arrow Keys) | Mute (sounds) |
-| :---:|      :---:        | :---:         |
-| A    | Left              | Q             |
-| S    | Down              |
-| D    | Right             |
-| W    | Down              |
+| Hit Left                | Hit Right                |
+| :---:                   |      :---:               |        
+| A                       | S                        | 
+| Left (arrow key)        | Right (arrow key)        |
+| Click left side (mouse) | Click right side (mouse) |
+| Tap left side (touch)   | Tap left side (touch)    |
 
+* Compatible with joystick
+* Compatible with touch screen (mobile device)
+
+## Difficulty Rules
+
+Every 50 points you go Level up. At each level an effect is applied to make the game more exciting.  
+There are 3 possibilities to increase the dificulty, all randomly.
+
+#### Drop safe barrel --> 60% possibilit apply on level up
+
+* Defaul value: 70% chance to drop a safe barrel.
+* Reduction: -10% chance to drop a safe barrel.
+* Limit: 10% chance to drop a safe barrel.
+
+#### Health recovery  --> 20% possibilit apply on level up
+
+* Defaul value: Recovers 3.5% of lost life on each hit.
+* Reduction: Reduce 0.5% health recovery. 
+* Limit: 1.5% minimal health recovery.
+
+#### Lose health  --> 20% possibilit apply on level up
+
+* Defaul value: Lose 15% per second.
+* Increase: +2% lose health per second. 
+* Limit: Lose 30% per second.
 
 ## Technology
 
